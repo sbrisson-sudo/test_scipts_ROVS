@@ -1,0 +1,1 @@
+gphoto2 --stdout --capture-movie | ffplay -framerate 30 -probesize 32 -sync video  -
